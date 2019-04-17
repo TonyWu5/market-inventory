@@ -2,12 +2,13 @@
 
 # Background Info
 This application was written for a coding challenge.</br>
+I spent 2 days working on this challenge. </br>
 The challenge is to take process data files in '/files/', which include excel and pdf files of poorly formatted data and update the inventory of a grocery market using these data files. </br>
 The program was written to calculate the amount of items remain on the shelf as of "2019-01-28". </br>
 Further instructions can be found in '/project_instructions.pdf' </br>
 
 
-# Instructions
+# How to run this application
 ## Running the app in the Terminal
 This program was built using MySQL @5.7
 ### MySQL@5.7
