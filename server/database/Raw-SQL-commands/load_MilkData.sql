@@ -1,0 +1,11 @@
+LOAD DATA
+  LOCAL
+  INFILE '/Users/woo/Desktop/Spring-Foods/files/orders/Old McDonald/2018-01-15/Cows.csv' 
+  INTO TABLE Milk 
+  FIELDS
+    TERMINATED BY ',' 
+    OPTIONALLY ENCLOSED BY '"'
+  LINES
+    TERMINATED BY '\n'
+  IGNORE 1 LINES
+  (QUANTITY, CATEGORY, COW_ID, COW_AGE, COW_BREED, EXPIRATION, VENDOR);

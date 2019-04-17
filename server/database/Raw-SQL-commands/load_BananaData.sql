@@ -1,0 +1,11 @@
+LOAD DATA
+  LOCAL
+  INFILE '/Users/woo/Desktop/Spring-Foods/files/orders/Bananarama/Order 3 (2018-12-08)/Samples.csv' 
+  INTO TABLE Bananas 
+  FIELDS
+    TERMINATED BY ',' 
+    OPTIONALLY ENCLOSED BY '"'
+  LINES
+    TERMINATED BY '\n'
+  IGNORE 1 LINES
+  (CATEGORY, EXPIRATION, GENERATION, ID, PRODUCT, TREE_ID, VARIETY);
